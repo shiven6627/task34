@@ -10,7 +10,7 @@ function UserForm({ onUserCreated }) {
     setSubmitting(true);
 
     try {
-      const response = await fetch("/api/users", {
+      const response = await fetch("https://task34-7ao5.onrender.com/api/users", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
