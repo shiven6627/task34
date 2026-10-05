@@ -11,7 +11,7 @@ function PostForm({ users, onPostCreated }) {
     setSubmitting(true);
 
     try {
-      const response = await fetch("/api/posts", {
+      const response = await fetch("https://task34-7ao5.onrender.com/api/posts", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
