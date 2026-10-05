@@ -10,7 +10,7 @@ function App() {
 
   const fetchPosts = async () => {
     try {
-      const response = await fetch("/api/posts");
+      const response = await fetch("https://task34-7ao5.onrender.com/api/posts");
       const data = await response.json();
 
       if (!response.ok) {
